@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/united/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    max-width: 100%;
+    margin:0 auto;
+    background:linear-gradient(to right,red,yellow,navy);
+    background-attachment: fixed;
+}
+
+
+footer{
+    padding:5px;
+    width:100%;
+    text-align: center;
+    color:white;
+    margin:0 auto;
+    background:linear-gradient( #146d9a, #146d9a, #146d9a);
+    background-image: linear-gradient(to bottom, #6ab6dc 0%,  #094d6f 100%);
+    position:fixed;
+    bottom:0;
+}
+footer:hover{
+    color:red;
+    
+}
+
+  .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px; 
+  }
+
+  /*  carousel css */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  
